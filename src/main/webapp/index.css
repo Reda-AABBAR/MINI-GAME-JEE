@@ -1,0 +1,397 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+*{
+    margin: 0;
+
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.play-page{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    background : url("img/background.gif") center center/cover no-repeat;
+    width: 100%;
+    height: 100vh;
+    top : 0;
+    left : 0;
+}
+.elements{
+    background-color: rgba(0, 0, 0, 0.5) ;
+    width: 50%;
+    height: 300px;
+    position: absolute;
+    top : 50%;
+    left: 50%;
+    translate: -50% -50%;
+    text-align: center;
+    border-radius: 20px;
+    
+}
+
+.elements h1{
+    /* position: absolute;
+    top : 0;
+    left: 50%; */
+    text-align : center;
+    color : white;
+    /* translate : -50% 0; */
+    font-family: "Press Start 2P";
+    margin-top : 20px; 
+}
+.elements button{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    font-size: 20px;
+    background-color: green;
+    color: aliceblue;
+    bottom: 20%;
+    left: 50%;
+    translate: -50% -50%;
+    cursor: pointer;
+    font-family: "Press Start 2P"
+ }
+
+ .elements button:hover{
+    width: 110px;
+    height: 110px;
+    translate : -50% -50%;
+    background-color: aliceblue;
+    color: green;
+ }
+
+ .group-number-container{
+    position: absolute;
+    background : url("img/background.gif") center center/cover no-repeat;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    top : 0;
+    left : 0;
+ }
+
+ .group-number-container h1{
+    margin: 30px;
+    font-family: "Press Start 2P";
+    color: white;
+ }
+
+ .group-number{
+   width: 80%;
+    height: 80%;  
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    
+ }
+  .group-number div{
+    width: 48%;
+   	 height: 28%;
+     margin: 10px;
+     float : left;
+ }
+ .choose-Controleur button{
+    width: 100%;
+    height: 100%;
+    font-size : 30px;
+    font-family : "Press Start 2P";
+    background-color: rgba(14, 195, 107, 0.671);
+    cursor: pointer;
+ }
+ .choose-Controleur button:hover{
+    background-color: rgba(255, 255, 255, 0.671);
+    color : rgba(14, 195, 107, 1);
+ }
+  .choose-Controleur{
+    width: 100%;
+   	 height: 100%;
+    
+  }
+
+ .group-choose-container{
+    position: relative;
+    margin-top: 5px;
+     background : url("img/background.gif") center center/cover no-repeat;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+ }
+.group-choose{
+    position: absolute;
+    width: 80%;
+    margin-top: 10px;
+    /* height: 80%; */
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius : 20px;
+    left: 50%;
+    translate: -50% 0%;
+    text-align: center;
+    
+}
+.Players-Redistry{
+	width:80%;
+	margin: auto;
+}
+.chooser{
+	width : 0;
+	height : 0;
+	border: none;
+	padding : 0;
+}
+ .player{
+    width: 17%;
+    float: left;
+    margin: 30px 10px;
+    background-color: rgba(14, 195, 107, 0.671);
+    border-radius: 10px;
+ }
+ .player img{
+    
+    width: 50%;
+    margin-top: 10px;
+ }
+
+ .player button{
+    margin-top: 5px;
+    width: 50%;
+    height: 30px;
+    background-color: blue;
+    color: #ffffff;
+    border: solid 2px #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+ }
+ .player h2{
+ 	font-family: "Press Start 2P";
+ 	font-size: 14px;
+ 	margin: 5px auto;
+ }
+ .clear{
+    clear: both;
+ }
+
+ .player button:hover{
+    background-color: #ffffff;
+    color: blue;
+    border: solid 2px blue;
+ }
+ .team {
+    /* position: relative;
+    display : flex;
+    margin: 0; */
+    background-color: #ffffff;
+ }
+ .team div{
+    margin: 0;
+    margin-left: 5px;
+   float: left;
+ }
+ .your-team-label{
+ 	font-family: "Press Start 2P";
+ 	font-size: 16px;
+ 	color: white;
+ }
+ .group-choose-container h1{
+ 	font-size: 20px;
+ 	font-family: "Press Start 2P";
+ 	color : white;
+ }
+
+ .group-choose .next{
+    /* width: 100px;
+    height: 30; */
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: green;
+   padding: 10px 30px;
+   cursor: pointer;
+   font-family: "Press Start 2P";
+   margin: 10px auto;
+    
+}
+
+.group-choose .next:hover{
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+    background-color: white;
+   padding: 10px 30px;
+}
+.game{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(img/background.gif) center center/cover no-repeat;
+
+}
+.players-game{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.knight{
+    position: absolute;
+    width: 450px;
+    height: 250px;
+    background: url(img/knight2-unscreen.gif) center;
+    bottom:90px;
+    left: 200px;
+}
+
+.my-animation{
+    width: 86px;
+    height: 86px;
+   	background: url('elements/Knight_1/Attack 1.png');
+    background-size : cover;
+   	background-position: 0 0;
+}
+.my-annimation-enemy{
+    width: 86px;
+    height: 86px;
+    background: url(elements/Red_Werewolf/Idle.png) ;
+    background-size : cover;
+    transform: scaleX(-1);
+   
+}
+#knight-fream-test{
+    position: absolute;
+    width: 80px;
+    height: 86px;
+    background: url(elements/Knight_1/Attack_1.png);
+    background-position: 0px 0;
+    bottom:90px;
+    left: 100px;
+}
+.etat-character{
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: red;
+    top: -10px;
+    margin: auto;
+    
+}
+
+.etat-enemy{
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: red;
+    top: -10px;
+    margin: auto;
+    
+}
+
+.player-name{
+    position: absolute;
+    width: 100%;
+    /* height: 10px;
+    border-radius: 10px; */
+    /* border: none; */
+    /* background-color: rgb(159, 239, 19);  */
+    top: -30px;
+    text-align: center;
+}
+.enemy-name{
+    position: absolute;
+    width: 100%;
+    /* height: 10px;
+    border-radius: 10px; */
+    /* border: none; */
+    /* background-color: rgb(159, 239, 19);  */
+    top: -30px;
+    text-align: center;
+    transform: scaleX(-1);
+    
+}
+
+.fill-player{
+    /* width: 0%; */
+    height: 100%;
+    background-color: green;
+    border-radius: 10px;
+    border: none;
+    
+}
+
+
+.fill-enemy{
+    /* width: 50%; */
+    height: 100%;
+    background-color: green;
+    border-radius: 10px;
+    border: none;
+}
+
+.player-0 {
+    position: absolute;
+    bottom: 90px;
+    left: 92px;
+}
+.player-1 {
+    position: absolute;
+    bottom: 51px;
+    left: 6px;
+}
+.player-2 {
+    position: absolute;
+    bottom: 71px;
+    left: 178px;
+}
+
+.player-3 {
+    position: absolute;
+    
+    bottom: 54px;
+    left: 350px;
+}
+
+.player-4 {
+    position: absolute;
+    bottom: 90px;
+    left: 264px;
+}
+
+.enemy-0 {
+    position: absolute;
+    bottom: 96px;
+    left: 1053px;
+}
+.enemy-1 {
+    position: absolute;
+    bottom: 70px;
+    left: 813px;
+}
+.enemy-2 {
+    position: absolute;
+    bottom: 90px;
+    left: 698px;
+}
+
+.enemy-3 {
+    position: absolute;
+    bottom: 58px;
+    left: 575px;
+}
+.enemy-4 {
+    position: absolute;
+    bottom: 59px;
+    left: 932px;
+}
